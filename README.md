@@ -4,3 +4,7 @@
 ### ARCHITECTURE
 
 ![alt text](https://github.com/dariog721/NASA-VIIRS-ETL/blob/main/ETL.png)
+
+### DATA USED
+
+#### FIRMS API [https://firms.modaps.eosdis.nasa.gov/api/area/]

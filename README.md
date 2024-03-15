@@ -7,4 +7,4 @@
 
 ### DATA USED
 
-#### FIRMS API [https://firms.modaps.eosdis.nasa.gov/api/area/]
+#### FIRMS API - https://firms.modaps.eosdis.nasa.gov/api/area/

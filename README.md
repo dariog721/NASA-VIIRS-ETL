@@ -3,4 +3,4 @@
 
 ### ARCHITECTURE
 
-![alt text](https://github.com/)
+![alt text]([https://github.com/](https://github.com/dariog721/NASA-VIIRS-ETL/blob/main/ETL.png)https://github.com/dariog721/NASA-VIIRS-ETL/blob/main/ETL.png)

@@ -13,4 +13,4 @@
 #### https://firms.modaps.eosdis.nasa.gov/
 
 ### DASHBOARD
-![alt text](https://github.com/dariog721/NASA-VIIRS-ETL/blob/main/Dashboard.png)
+![alt text](https://github.com/dariog721/NASA-VIIRS-ETL/blob/main/Dash.png)

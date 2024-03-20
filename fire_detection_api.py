@@ -9,9 +9,10 @@ import pandas as pd
 from datetime import datetime,timedelta
 import time
 
+api1 = 'Your Api Here'
 def _get_api():
     try:
-        url = 'https://firms.modaps.eosdis.nasa.gov/api/country/csv/#/VIIRS_NOAA20_NRT/MEX/1'
+        url = 'https://firms.modaps.eosdis.nasa.gov/api/country/csv/api1/VIIRS_NOAA20_NRT/MEX/1'
         df = pd.read_csv(url)
         df['data_time'] = pd.to_datetime(df['acq_date']) + pd.to_timedelta(df['acq_time'], unit='m')
         df['data_insert'] = pd.to_datetime('today')
@@ -81,7 +82,7 @@ with DAG('nasa_viirs',  default_args=default_args,
     is_api_available = HttpSensor(
         task_id='is_api_available',
         http_conn_id='availabiliti_id',
-        endpoint='/country/csv/b3913e83d859d37659c53ea6b7aa9b79/VIIRS_NOAA20_NRT/MEX/1'
+        endpoint='/country/csv/api1/VIIRS_NOAA20_NRT/MEX/1'
     )
 
 
